@@ -1,0 +1,35 @@
+#title in header
+title: "St. Ed's Engineering"
+
+#main info
+#owner
+owner: ""
+info: ""
+#description
+desc: ""
+
+#menu
+menu:
+  Activities: /activities
+  Challenges: /challenges
+  References: /references
+
+#index/main page max show posts (in number)
+max_post: 0
+
+# social profile at the footer/bottom
+# place: https://www.google.com/search?q=kendal+jawa+tengah
+github: https://github.com/st-eds
+
+# js
+# nanobar: /js/nanobar.min.js
+
+# favicon
+favicon: /images/favicon.png
+
+article:
+  thumbnail: true
+
+# DISQUS comments (sign up to Disqus to get disqus_shortname)
+disqus_enabled: false
+# disqus_shortname: https-adisaktijrs-github-io
