@@ -39,7 +39,7 @@ console.log(chips)
 
 ##### `.splice(index, howManyElements)`
 
-Removes and returns one or more elements from an array. Specify the index to start at and how many elements to slice. Note, we will typically use `.slice()` to remove just one element from an array.
+Removes and returns one or more elements from an array. Specify the index to start at and how many elements to slice. Note, we will typically use `.splice()` to remove just one element from an array.
 
 ```js
 var animals = ['mongoose', 'camel', 'wolf', 'sheep']
