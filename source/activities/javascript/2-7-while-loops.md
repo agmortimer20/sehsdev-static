@@ -12,7 +12,7 @@ There are many different ways to repeat code. For JavaScript developers, the fir
 
 **While loops** look similar to if statements in that they have a keyword, a condition, and an associated code block. However, a while loop while repeatedly execute as long as the specified condition is true. That means somewhere in the loop, there needs to be a statement that will change the condition to evaluate to false.
 
-**Example**
+##### Example
 ```js
 var number = 10
 
@@ -22,6 +22,48 @@ while (number > 0) {
     number-- // Subtract 1 from number
 }
 ```
+
+##### Example Animation
+<!-- Begin Canvas Animation -->
+
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:640px; height:480px">
+    <canvas id="canvas" width="640" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+    <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+    </div>
+</div>
+
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="/assets/js/while-loop-animation.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+(function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("38F3EFE5DCFECC4B84BDEFE71A073220");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+})()
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.WhileLoopAnimation();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'width',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+
+<!-- End Canvas Animation -->
 
 #### Infinite Loops
 
