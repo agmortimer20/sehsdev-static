@@ -53,7 +53,7 @@ title: JavaScript/Node.js
 
 [3.2 Arrays and While Loops](/activities/javascript/3-2-arrays-while-loops.html)
 
-[3.3 Arrays and For Loops](#)
+[3.3 Arrays and For Loops](/activities/javascript/3-3-arrays-for-loops.html)
 
 [3.4 For Of Loops](/activities/javascript/3-4-arrays-for-of-loops.html)
 
