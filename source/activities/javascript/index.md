@@ -57,6 +57,8 @@ title: JavaScript/Node.js
 
 [3.4 For Of Loops](/activities/javascript/3-4-arrays-for-of-loops.html)
 
+[3.5 Useful Array Functions](/activities/javascript/3-5-useful-array-functions.html)
+
 <!-- #### Part 4 - Standard Objects
 
 #### Part 5 - Functions
