@@ -169,4 +169,6 @@ Play again?
 
 - If you want to ascend as a programmer, try upgrading the game to **Rock, paper, scissors, lizard, Spock**!
 
+- You can also try rewrite the code to use compound boolean expressions instead of nested if statements when checking if the player won or lost.
+
 - As the complexity of your applications increases, it's more important than ever to make out the requirements. The multi-line comment in the activity code is a basic, but useful guide to tracking what needs to be implemented in the program.
