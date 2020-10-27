@@ -7,7 +7,7 @@ title: Challenges
 ### Code Challenges
 1. [Chain Letter](/challenges/code/1-chain-letter.html)
 2. [Mad Lib](/challenges/code/2-mad-lib.html)
-3. [Miles to Kilometers Calculator](/challenges/code/3-mile-kilometer.html)
+3. [Miles to Kilometers Calculator](/challenges/code/3-mile-to-kilometer.html)
 4. [Celsius to Fahrenheit Calculator](/challenges/code/4-celsius-to-fahrenheit.html)
 5. [Yards to Furlongs Calculator](/challenges/code/5-yards-to-furlongs.html)
 6. [Inches to Height Calculator](/challenges/code/6-height-to-inches.html)
