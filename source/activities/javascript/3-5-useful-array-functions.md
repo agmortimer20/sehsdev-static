@@ -108,7 +108,7 @@ while (itemChoice != "exit") {
     if (itemChoice == "exit") {
         console.log("Goodbye...")
     }
-    else if (inventory.indexOf(itemChoice) == -1) {
+    else if (!inventory.includes(itemChoice)) {
         console.log("Item not found...\n")
     }
     else {
