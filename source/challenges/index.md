@@ -22,6 +22,7 @@ title: Challenges
 15. [Coin Flip Simulator](/challenges/code/15-coin-flip-simulator.html)
 16. [Raffle](/challenges/code/16-raffle.html)
 17. [Magic 8-Ball Part 2](/challenges/code/17-magic-8-ball-pt2.html)
+18. [Shopping Cart](/challenges/code/18-shopping-cart.html)
 
 <hr>
 
