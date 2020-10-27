@@ -10,6 +10,21 @@ JavaScript provides a number of different useful functions for working with arra
 
 #### Examples
 
+##### `.includes(element)`
+
+Returns **true** if the element exists in the array. Otherwise, returns **false**.
+
+```js
+var chips = ['jalapeno', 'sour cream', 'barbeque', 'cheddar', 'cool ranch']
+console.log( chips.includes('cheddar') )
+console.log( chips.includes('hawaiian bbq') )
+```
+```shell
+true
+false
+```
+
+
 ##### `.indexOf(element)`
 
 Returns the **index** of the element if it exists in an array. Returns **-1** if the element is not found.
@@ -17,7 +32,7 @@ Returns the **index** of the element if it exists in an array. Returns **-1** if
 ```js
 var chips = ['jalapeno', 'sour cream', 'barbeque', 'cheddar', 'cool ranch']
 console.log( chips.indexOf('cheddar') )
-console.log( chips.includes('hawaiian bbq') )
+console.log( chips.indexOf('hawaiian bbq') )
 ```
 ```shell
 3
@@ -29,6 +44,7 @@ console.log( chips.includes('hawaiian bbq') )
 Appends, or adds, an element at the end of an array.
 
 ```js
+var chips = ['jalapeno', 'sour cream', 'barbeque', 'cheddar', 'cool ranch']
 chips.push('salt & vinegar')
 chips.push('nacho cheese')
 console.log(chips)
