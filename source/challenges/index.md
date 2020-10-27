@@ -4,7 +4,7 @@ title: Challenges
 
 [← Back](/)
 
-## Code Challenges
+### Code Challenges
 1. [Chain Letter](/challenges/code/1-chain-letter.html)
 2. [Mad Lib](/challenges/code/2-mad-lib.html)
 3. [Miles to Kilometers Calculator](/challenges/code/3-mile-kilometer.html)
@@ -26,6 +26,6 @@ title: Challenges
 
 <hr>
 
-## Debug Challenges
+### Debug Challenges
 
 1. [Output Errors](/challenges/debug/1-output.html)
