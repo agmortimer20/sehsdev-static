@@ -40,6 +40,45 @@ The for loop operates as such:
 4. At the end of the loop, the array is checked to see if there is another element in the list. If there is another element, the variable is assigned the next element, and the code block repeats.
 5. The loop continues until there are no more elements in the array to iterate through.
 
+#### Example Animation
+
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:640px; height:480px">
+  <canvas id="canvas" width="640" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+  <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+  </div>
+</div>
+
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="/assets/js/for-of-loop-animation.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+(function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("C756B9C09D06134D9B51CB30F8548AFC");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+})()
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.ForOfLoopAnimation();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'width',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+
 
 #### Skills to Practice
 
