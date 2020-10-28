@@ -40,7 +40,7 @@ var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAni
 	canvas = document.getElementById("canvas");
 	anim_container = document.getElementById("animation_container");
 	dom_overlay_container = document.getElementById("dom_overlay_container");
-	var comp=AdobeAn.getComposition("38F3EFE5DCFECC4B84BDEFE71A073220");
+	var comp=AdobeAn.getComposition("C756B9C09D06134D9B51CB30F8548AFC");
 	var lib=comp.getLibrary();
 	handleComplete({},comp);
 })()
@@ -48,7 +48,7 @@ function handleComplete(evt,comp) {
 	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
 	var lib=comp.getLibrary();
 	var ss=comp.getSpriteSheet();
-	exportRoot = new lib.WhileLoopAnimation();
+	exportRoot = new lib.WhileLoopAnimationv2();
 	stage = new lib.Stage(canvas);	
 	//Registers the "tick" event listener.
 	fnStartAnimation = function() {
