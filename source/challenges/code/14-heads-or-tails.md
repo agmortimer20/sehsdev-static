@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 14 - Heads or Tails Game
+permalink: /challenges/code/14
 ---
 
 [← Back](/challenges/)

@@ -1,5 +1,6 @@
 ---
 title: Activity 3.1 Arrays
+permalink: /activities/javascript/3-1
 ---
 
 [← Back](/activities/javascript/)

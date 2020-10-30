@@ -1,5 +1,6 @@
 ---
 title: Activity 1.5 Manipulating Variables
+permalink: /activities/javascript/1-5
 ---
 
 [← Back](/activities/javascript/)

@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 4 - Celsius to Fahrenheit Calculator
+permalink: /challenges/code/4
 ---
 
 [← Back](/challenges/)

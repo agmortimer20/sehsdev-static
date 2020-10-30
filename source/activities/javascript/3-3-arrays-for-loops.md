@@ -1,5 +1,6 @@
 ---
 title: Activity 3.3 Arrays and For Loops
+permalink: /activities/javascript/3-3
 ---
 
 [← Back](/activities/javascript/)

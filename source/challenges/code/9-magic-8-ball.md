@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 9 - Magic 8-Ball
+permalink: /challenges/code/9
 ---
 
 [← Back](/challenges/)

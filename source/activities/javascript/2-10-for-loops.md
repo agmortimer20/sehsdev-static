@@ -1,5 +1,6 @@
 ---
 title: Activity 2.10 For Loops
+permalink: /activities/javascript/2-10
 ---
 
 [← Back](/activities/javascript/)

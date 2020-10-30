@@ -1,5 +1,6 @@
 ---
 title: Activity 2.3 Branching
+permalink: /activities/javascript/2-3
 ---
 
 [← Back](/activities/javascript/)

@@ -1,5 +1,6 @@
 ---
 title: Debug Challenge 1 - Output Errors
+permalink: /challenges/debug/1
 ---
 
 [← Back](/challenges/)

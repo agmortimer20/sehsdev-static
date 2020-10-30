@@ -1,5 +1,6 @@
 ---
 title: Activity 3.5 Useful Array Functions
+permalink: /activities/javascript/3-5
 ---
 
 [← Back](/activities/javascript/)

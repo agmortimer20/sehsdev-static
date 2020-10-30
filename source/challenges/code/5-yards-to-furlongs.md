@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 5 - Yards to Furlongs Calculator
+permalink: /challenges/code/5
 ---
 
 [← Back](/challenges/)

@@ -1,5 +1,6 @@
 ---
 title: Activity 1.1 Hello World!
+permalink: /activities/javascript/1-1
 ---
 
 [← Back](/activities/javascript/)

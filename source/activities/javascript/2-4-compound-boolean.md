@@ -1,5 +1,6 @@
 ---
 title: Activity 2.4 Compound Boolean Expressions
+permalink: /activities/javascript/2-4
 ---
 
 [← Back](/activities/javascript/)

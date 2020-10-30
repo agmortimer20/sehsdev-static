@@ -1,5 +1,6 @@
 ---
 title: Activity 3.4 For Of Loops
+permalink: /activities/javascript/3-4
 ---
 
 [← Back](/activities/javascript/)

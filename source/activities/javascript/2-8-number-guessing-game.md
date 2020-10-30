@@ -1,5 +1,6 @@
 ---
 title: Activity 2.8 Number Guessing Game
+permalink: /activities/javascript/2-8
 ---
 
 [← Back](/activities/javascript/)

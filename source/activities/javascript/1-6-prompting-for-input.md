@@ -1,5 +1,6 @@
 ---
 title: Activity 1.6 Prompting for Input
+permalink: /activities/javascript/1-6
 ---
 
 [← Back](/activities/javascript/)

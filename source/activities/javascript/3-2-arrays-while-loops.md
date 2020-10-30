@@ -1,5 +1,6 @@
 ---
 title: Activity 3.2 Arrays and While Loops
+permalink: /activities/javascript/3-2
 ---
 
 [← Back](/activities/javascript/)

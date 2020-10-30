@@ -1,6 +1,8 @@
 ---
 title: Activity 1.4 Variables
+permalink: /activities/javascript/1-4
 ---
+
 
 [← Back](/activities/javascript/)
 

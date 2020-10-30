@@ -1,5 +1,6 @@
 ---
 title: Activity 2.7 While Loops
+permalink: /activities/javascript/2-7
 ---
 
 [← Back](/activities/javascript/)

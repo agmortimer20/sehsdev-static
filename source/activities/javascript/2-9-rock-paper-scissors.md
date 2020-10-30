@@ -1,5 +1,6 @@
 ---
 title: Activity 2.9 Rock, Paper, Scissors Game
+permalink: /activities/javascript/2-9
 ---
 
 [← Back](/activities/javascript/)

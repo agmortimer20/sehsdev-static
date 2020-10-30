@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 15 Coin Flip Simulator
+permalink: /challenges/code/15
 ---
 
 [← Back](/challenges/)

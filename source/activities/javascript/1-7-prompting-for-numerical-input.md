@@ -1,5 +1,6 @@
 ---
 title: Activity 1.7 Prompting for Numerical Input
+permalink: /activities/javascript/1-7
 ---
 
 [← Back](/activities/javascript/)

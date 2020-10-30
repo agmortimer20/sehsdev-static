@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 18 - Shopping Cart
+permalink: /challenges/code/18
 ---
 
 [← Back](/challenges/)

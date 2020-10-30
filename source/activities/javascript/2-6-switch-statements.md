@@ -1,5 +1,6 @@
 ---
 title: Activity 2.6 Switch Statements
+permalink: /activities/javascript/2-6
 ---
 
 [← Back](/activities/javascript/)

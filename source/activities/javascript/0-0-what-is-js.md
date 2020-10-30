@@ -1,5 +1,6 @@
 ---
 title: What is JavaScript and Node.js?
+permalink: /activities/javascript/0-1
 ---
 
 [← Back](/activities/javascript/)

@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 12 - FizzBuzz
+permalink: /challenges/code/12
 ---
 
 [← Back](/challenges/)

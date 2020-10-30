@@ -1,5 +1,6 @@
 ---
 title: Activity 1.2 Text Elements
+permalink: /activities/web-design/1-2
 ---
 
 [← Back](/activities/web-design/)

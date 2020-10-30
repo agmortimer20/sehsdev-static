@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 7 - Change Calculator
+permalink: /challenges/code/7
 ---
 
 [← Back](/challenges/)

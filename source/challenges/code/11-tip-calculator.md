@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 11 - Tip Calculator
+permalink: /challenges/code/11
 ---
 
 [← Back](/challenges/)

@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 8 - Quadratic Equation
+permalink: /challenges/code/8
 ---
 
 [← Back](/challenges/)

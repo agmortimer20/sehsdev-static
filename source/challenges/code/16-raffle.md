@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 16 - Raffle
+permalink: /challenges/code/16
 ---
 
 [← Back](/challenges/)

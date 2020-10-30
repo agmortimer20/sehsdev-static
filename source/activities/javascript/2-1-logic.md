@@ -1,5 +1,6 @@
 ---
 title: Activity 2.1 Logic Crash Course
+permalink: /activities/javascript/2-1
 ---
 
 [← Back](/activities/javascript/)

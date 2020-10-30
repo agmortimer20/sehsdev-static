@@ -1,5 +1,6 @@
 ---
 title: Activity 1.3 String Formatting
+permalink: /activities/javascript/1-3
 ---
 
 [← Back](/activities/javascript/)

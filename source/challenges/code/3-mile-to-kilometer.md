@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 3 - Miles to Kilometers Calculator
+permalink: /challenges/code/3
 ---
 
 [← Back](/challenges/)

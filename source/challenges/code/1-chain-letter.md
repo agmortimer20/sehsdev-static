@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 1 - Chain Letter
+permalink: /challenges/code/1
 ---
 
 [← Back](/challenges/)

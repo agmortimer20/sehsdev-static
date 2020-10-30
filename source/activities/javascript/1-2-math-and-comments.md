@@ -1,5 +1,6 @@
 ---
 title: Activity 1.2 Math and Comments
+permalink: /activities/javascript/1-2
 ---
 
 [← Back](/activities/javascript/)

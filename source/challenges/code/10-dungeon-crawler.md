@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 10 - Dungeon Crawler
+permalink: /challenges/code/10
 ---
 
 [← Back](/challenges/)

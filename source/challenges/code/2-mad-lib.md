@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 2 - Mad Lib
+permalink: /challenges/code/2
 ---
 
 [← Back](/challenges/)

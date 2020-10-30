@@ -1,5 +1,6 @@
 ---
 title: Activity 2.2 If Statements
+permalink: /activities/javascript/2-2
 ---
 
 [← Back](/activities/javascript/)

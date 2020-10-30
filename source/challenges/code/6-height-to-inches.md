@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 6 - Inches to Height Calculator
+permalink: /challenges/code/6
 ---
 
 [← Back](/challenges/)

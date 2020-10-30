@@ -1,5 +1,6 @@
 ---
 title: Activity 1.8 Constants and Math Functions
+permalink: /activities/javascript/1-8
 ---
 
 [← Back](/activities/javascript/)

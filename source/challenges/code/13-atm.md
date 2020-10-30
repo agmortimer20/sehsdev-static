@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 13 - ATM
+permalink: /challenges/code/13
 ---
 
 [← Back](/challenges/)

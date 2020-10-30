@@ -1,5 +1,6 @@
 ---
 title: Activity 2.5 Nested If Statements
+permalink: /activities/javascript/2-5
 ---
 
 [← Back](/activities/javascript/)

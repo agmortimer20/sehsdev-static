@@ -1,5 +1,6 @@
 ---
 title: Code Challenge 17 - Magic 8-Ball Part 2
+permalink: /challenges/code/17
 ---
 
 [← Back](/challenges/)
