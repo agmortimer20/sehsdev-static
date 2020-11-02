@@ -59,9 +59,11 @@ title: JavaScript/Node.js
 
 [3.5 Useful Array Functions](/activities/javascript/3-5.html)
 
-<!-- #### Part 4 - Standard Objects
+#### Part 4 - Functions
 
-#### Part 5 - Functions
+[4.1 Function Basics](/activities/javascript/4-1.html)
+
+<!-- #### Part 5 - Standard Objects
 
 #### Part 6 - Object-Oriented Programming
 
