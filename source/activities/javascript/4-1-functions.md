@@ -25,6 +25,46 @@ sampleFunction()
 
 A function definition contains a set of statements that define what will happen when the function is invoked. This is known as a function body. One important thing to note: **The function body does not execute until the function is invoked.**
 
+#### Example Animation
+
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:640px; height:480px">
+    <canvas id="canvas" width="640" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+    <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+    </div>
+</div>
+
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="/assets/js/function-animation-basic.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+(function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("4F30DD8EC1DDFB4098147C02ED0AD997");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+})()
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.FunctionAnimationBasic();
+	stage = new lib.Stage(canvas);
+	stage.enableMouseOver();	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'width',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+
 #### Skills to Practice
 
 - Defining simple functions
