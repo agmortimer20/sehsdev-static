@@ -7,6 +7,7 @@ title: JavaScript Syntax Reference
 **Note**, this list is not exhaustive. For a complete reference to the JavaScript programming language, see the JavaScript documentation provided by the [Mozilla Developer Network](https://developer.mozilla.org/en-US/docs/Web/JavaScript).
 
 ### Contents
+
 #### JavaScript Programming Basics
 1. [Output with console.log()](#Output-with-console-log)
 2. [Primitive Types](#Primitive-Types)
@@ -21,6 +22,7 @@ title: JavaScript Syntax Reference
 
 #### Control Flow
 1. [Boolean Logic](#Boolean-Logic)
+2. [If Statements](#If-Statements)
 
 <br>
 <hr>
@@ -403,4 +405,80 @@ Truth tables are used to show different combinations of Boolean expressions and 
 
 ### If Statements
 
-### Branching with If, Else If, and Else
+An if statement will execute a section of code, known as a **code block**, if a boolean expression, known as a **condition** has a *true* result. If the condition is *true*, the code block, which is surrounded by the curly braces, will execute. If the condition is *false*, the code block is skipped over, and does not execute.
+
+**Example**
+
+```js
+var number = 100
+
+if (number == 100) {
+    console.log("Code inside a code block.")
+    console.log("More code inside a code block...")
+}
+```
+
+**Animation**
+
+<!-- Begin Canvas Animation -->
+
+<div id="animation_container" style="background-color:rgba(255, 255, 255, 1.00); width:640px; height:480px">
+    <canvas id="canvas" width="640" height="480" style="position: absolute; display: block; background-color:rgba(255, 255, 255, 1.00);"></canvas>
+    <div id="dom_overlay_container" style="pointer-events:none; overflow:hidden; width:640px; height:480px; position: absolute; left: 0px; top: 0px; display: block;">
+    </div>
+</div>
+
+<script src="https://code.createjs.com/1.0.0/createjs.min.js"></script>
+<script src="/assets/js/if-statement-animation.js"></script>
+<script>
+var canvas, stage, exportRoot, anim_container, dom_overlay_container, fnStartAnimation;
+(function init() {
+	canvas = document.getElementById("canvas");
+	anim_container = document.getElementById("animation_container");
+	dom_overlay_container = document.getElementById("dom_overlay_container");
+	var comp=AdobeAn.getComposition("C756B9C09D06134D9B51CB30F8548AFC");
+	var lib=comp.getLibrary();
+	handleComplete({},comp);
+})()
+function handleComplete(evt,comp) {
+	//This function is always called, irrespective of the content. You can use the variable "stage" after it is created in token create_stage.
+	var lib=comp.getLibrary();
+	var ss=comp.getSpriteSheet();
+	exportRoot = new lib.IfStatementAnimation();
+	stage = new lib.Stage(canvas);	
+	//Registers the "tick" event listener.
+	fnStartAnimation = function() {
+		stage.addChild(exportRoot);
+		createjs.Ticker.framerate = lib.properties.fps;
+		createjs.Ticker.addEventListener("tick", stage);
+	}	    
+	//Code to support hidpi screens and responsive scaling.
+	AdobeAn.makeResponsive(true,'width',false,1,[canvas,anim_container,dom_overlay_container]);	
+	AdobeAn.compositionLoaded(lib.properties.id);
+	fnStartAnimation();
+}
+</script>
+
+<!-- End Canvas Animation -->
+
+#### Else If and Else
+
+We can *branch* if statements with to other kinds of statements, `else if` and `else`.
+
+- `else if` must follow and if statement, and will only check it's condition if the preceding if statement condition resulted in `false`. You can chain as many else if statements as you want, but they *must* come after the initial if statement.
+- `else` must be at the end of an if or else if statement. It does not require a condition, and will execute if any preceding if or else if statement coniditions result in `false`.
+
+**Example**
+```js
+var number = 100
+
+if (number > 100) {
+    console.log("number is higher than 100")
+}
+else if (number == 100) {
+    console.log("number is 100")
+}
+else {
+    console.log("number is less than 100")
+}
+```
