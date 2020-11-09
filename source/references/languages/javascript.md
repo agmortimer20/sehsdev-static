@@ -398,10 +398,10 @@ Truth tables are used to show different combinations of Boolean expressions and 
 
 |   **Or (\|\|)**                           |   **Result**  |
 | :-------------------------------------    | ------------: |
-|   `100 == 100 && "anthony" == "anthony"`  |   true        |
-|   `100 == 99 && "anthony" == "anthony"`   |   true        |
-|   `"abc" == "abc" && "ABC" == "abc"`      |   true        |
-|   `10 > 100 && 90 < 10`                   |   false       |
+|   `100 == 100 \|\| "anthony" == "anthony"`  |   true        |
+|   `100 == 99 \|\| "anthony" == "anthony"`   |   true        |
+|   `"abc" == "abc" \|\| "ABC" == "abc"`      |   true        |
+|   `10 > 100 \|\| 90 < 10`                   |   false       |
 
 ### If Statements
 
