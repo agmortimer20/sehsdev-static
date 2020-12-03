@@ -63,6 +63,8 @@ title: JavaScript/Node.js
 
 [4.1 Function Basics](/activities/javascript/4-1.html)
 
+[4.2 Function Parameters](/activities/javascript/4-2.html)
+
 <!-- #### Part 5 - Standard Objects
 
 #### Part 6 - Object-Oriented Programming
