@@ -65,7 +65,7 @@ title: JavaScript/Node.js
 
 [4.2 Function Parameters](/activities/javascript/4-2.html)
 
-[4.3 Function Parameters](/activities/javascript/4-3.html)
+[4.3 Return Statements](/activities/javascript/4-3.html)
 
 <!-- #### Part 5 - Object-Oriented Programming
 
