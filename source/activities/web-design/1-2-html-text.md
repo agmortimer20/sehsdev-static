@@ -41,11 +41,8 @@ In web design, it's common to see placeholder text that looks like fake Latin. T
 
 
 ```html
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>HTML Text Elements</title>
   </head>
   <body>

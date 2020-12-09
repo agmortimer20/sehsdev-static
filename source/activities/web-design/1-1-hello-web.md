@@ -41,13 +41,9 @@ Your new workspace will generate some starting files that are necessary to run a
 2. Insert a `<p></p>` inbetween the opening and closing body tags. Write the following text in between the *p* tags: *"Welcome to my website!"*.
 
 ```html
-<!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
     <title>My Website</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <p>Welcome to my website!</p>
