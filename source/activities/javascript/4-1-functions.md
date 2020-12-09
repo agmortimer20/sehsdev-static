@@ -126,7 +126,7 @@ function songThatNeverEnds() {
     while (answer != "no") {
         console.log("\nIt's the song that never ends, it goes on and on my friends!")
         console.log("Some people started singing it not knowing what it was,")
-        console.log("but they'll continue singing it, that' just because...\n")
+        console.log("but they'll continue singing it, that's just because...\n")
 
         answer = readline.question("Continue? ")
     }
