@@ -95,7 +95,7 @@ function greet() {
     if (mood == "good") {
         console.log("Glad to hear it!")
     }
-    else if (mood = "bad") {
+    else if (mood == "bad") {
         console.log("Sorry to hear that :(")
     }
     else {
