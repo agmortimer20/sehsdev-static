@@ -16,7 +16,9 @@ In short, try to come up with a silly news article idea, but keep it school appr
 
 #### Skills to Practice
 
-- f
+- Creating an HTML page
+- Implementing basic HTML structure
+- Writing text content
 
 ### Challenge Tasks
 
