@@ -26,6 +26,12 @@ title: Challenges
 
 <hr>
 
+### Web Design
+
+1. [Fake News](/challenges/web-design/1.html)
+
+<hr>
+
 ### Debug Challenges
 
 1. [Output Errors](/challenges/debug/1.html)
